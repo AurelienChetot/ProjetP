@@ -35,13 +35,13 @@ export default function Header() {
           tabIndex={0}
           className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li>
+          <li className="text-yellow-800">
             <a>Homepage</a>
           </li>
-          <li>
+          <li className="text-yellow-800">
             <a>Portfolio</a>
           </li>
-          <li>
+          <li className="text-yellow-800">
             <a>About</a>
           </li>
         </ul>
