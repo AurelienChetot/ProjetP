@@ -7,6 +7,9 @@ export default {
       backgroundImage: {
         "custom-bg": "url('/assets/lotus.gif')",
       },
+      colors: {
+        customColor: "#C1B09E",
+      },
     },
   },
   plugins: [daisyui],

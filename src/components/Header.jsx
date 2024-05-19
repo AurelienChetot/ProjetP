@@ -2,8 +2,8 @@ export default function Header() {
   return (
     <div className="bg-custom-bg bg-cover bg-center  border-b-2 border-b-stone-950">
       <div className="flex flex-col items-center pt-10">
-        <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 inline-block text-transparent bg-clip-text flex text-center text-4xl mb-2">
-          Psychopraticienne <br /> Patricia <br />
+        <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
+          Patricia <br />
           Deias
         </h1>
       </div>
@@ -11,7 +11,7 @@ export default function Header() {
         <div tabIndex={0} role="button" className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10 text-indigo-200"
+            className="h-10 w-10 text-customColor"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

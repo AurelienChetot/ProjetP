@@ -1,20 +1,26 @@
 import IMG from "/assets/imghome.jpg";
 import Logo from "/assets/favicone.png";
 import THERAPIE from "/assets/psy.jpeg";
+import IMG1 from "/assets/img1.jpeg";
+import DECO1 from "/assets/deco1.jpeg";
+import DECO2 from "/assets/deco2.jpeg";
+import DECO3 from "/assets/deco3.jpeg";
+import DECO5 from "/assets/deco5.jpeg";
+import BUDDHA2 from "/assets/buddha2.jpeg";
 
 export default function Home() {
   return (
-    <div className="bg-slate-100 flex flex-col items-center ">
+    <div className="bg-stone-200 flex flex-col items-center ">
       <div className="flex justify-center">
         <img
-          className="h-32 w-32 mt-4 rounded-[50%] border-2 border-indigo-400"
+          className="h-32 w-32 mt-4 rounded-[50%] border-2 border-customColor"
           src={Logo}
           alt="Logo"
         />
       </div>
       <h1 className="text-center pt-5 pb-2 text-xl font-bold pl-1 pr-1 ">
         Bienvenue sur le site de{" "}
-        <span className="text-slate-500">Patricia Deias</span>,{" "}
+        <span className="text-customColor">Patricia Deias</span>,{" "}
         Psychopraticienne
       </h1>
       <div className="flex flex-col items-center">
@@ -26,7 +32,7 @@ export default function Home() {
           approche bienveillante et personnalisée vise à vous aider à surmonter
           les défis émotionnels et psychologiques que vous pouvez rencontrer.
         </p>
-        <h2 className="pt-5 text-xl text-center pl-1 pr-1 font-bold border-t-2 border-t-blue-950 w-4/5 lg:w-2/6">
+        <h2 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           Que pouvez-vous trouver sur mon site ?
         </h2>
         <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
@@ -36,7 +42,7 @@ export default function Home() {
           approche bienveillante et personnalisée vise à vous aider à surmonter
           les défis émotionnels et psychologiques que vous pouvez rencontrer.
         </p>
-        <h3 className="pt-5 text-xl text-center pl-1 pr-1 font-bold border-t-2 border-t-blue-950 w-4/5 lg:w-2/6">
+        <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           De quelle façon un psychopraticien peut-il vous aider ?
         </h3>
         <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
@@ -49,7 +55,7 @@ export default function Home() {
           sexuels, difficultés au travail, les problèmes d’éducation des enfants
           et les soins aux personnes âgées.
         </p>
-        <h4 className="pt-5 text-xl text-center pl-1 pr-1 font-bold border-t-2 border-t-blue-950 w-4/5 lg:w-2/6">
+        <h4 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           Pourquoi devriez-vous consulter un psychopraticien ?
         </h4>
         <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
@@ -62,42 +68,27 @@ export default function Home() {
           appel à un psychopraticien agréé.
         </p>
       </div>
-      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-neutral-700 rounded-box">
+      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box">
         <div className="carousel-item">
           <img src={THERAPIE} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img src={THERAPIE} className="rounded-box" />
+          <img src={IMG1} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-            className="rounded-box"
-          />
+          <img src={BUDDHA2} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-            className="rounded-box"
-          />
+          <img src={DECO3} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-            className="rounded-box"
-          />
+          <img src={DECO5} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-            className="rounded-box"
-          />
+          <img src={DECO1} className="rounded-box" />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-            className="rounded-box"
-          />
+          <img src={DECO2} className="rounded-box" />
         </div>
       </div>
     </div>
