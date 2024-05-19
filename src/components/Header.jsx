@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <div className="bg-custom-bg bg-cover bg-center h-80  border-b-2 border-b-stone-950 lg:h-[750px]">
       <div className="flex flex-col items-center pt-10">
-        <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
+        <h1 className="font-royal bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
           Patricia <br />
           Deias
         </h1>

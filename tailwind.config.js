@@ -11,6 +11,9 @@ export default {
         customColor: "#C1B09E",
         colorBrown: "#746458",
       },
+      fontFamily: {
+        royal: ["RoyalWedding-Regular", "sans-serif"],
+      },
     },
   },
   plugins: [daisyui],

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "RoyalWedding-Regular";
+  src: url("../src/fonts/RoyalWedding-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
