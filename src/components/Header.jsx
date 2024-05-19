@@ -31,22 +31,22 @@ export default function Header() {
           <li className="text-indigo-800 text-xl text-center">
             <a>Accueil</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Qui suis-je</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Mes séances</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Thérapie</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Objectifs</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Tarifs</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-indigo-800 text-xl text-center pt-2">
             <a>Contact</a>
           </li>
         </ul>

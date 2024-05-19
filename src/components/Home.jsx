@@ -1,9 +1,10 @@
 import IMG from "/assets/imghome.jpg";
 import Logo from "/assets/favicone.png";
+import THERAPIE from "/assets/psy.jpeg";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-indigo-100 via-slate-50 to-indigo-100 ">
+    <div className="bg-slate-100 flex flex-col items-center ">
       <div className="flex justify-center">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-indigo-400"
@@ -13,7 +14,7 @@ export default function Home() {
       </div>
       <h1 className="text-center pt-5 pb-2 text-xl font-bold pl-1 pr-1 ">
         Bienvenue sur le site de{" "}
-        <span className="text-indigo-600">Patricia Deias</span>,{" "}
+        <span className="text-slate-500">Patricia Deias</span>,{" "}
         Psychopraticienne
       </h1>
       <div className="flex flex-col items-center">
@@ -60,6 +61,44 @@ export default function Home() {
           pouvez compter et qui est objectif. Dans ce cas-là, vous pouvez faire
           appel à un psychopraticien agréé.
         </p>
+      </div>
+      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-sky-400 rounded-box">
+        <div className="carousel-item">
+          <img src={THERAPIE} className="rounded-box" />
+        </div>
+        <div className="carousel-item">
+          <img src={THERAPIE} className="rounded-box" />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+            className="rounded-box"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
+            className="rounded-box"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+            className="rounded-box"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
+            className="rounded-box"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
+            className="rounded-box"
+          />
+        </div>
       </div>
     </div>
   );
