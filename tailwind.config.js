@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         customColor: "#C1B09E",
+        colorBrown: "#746458",
       },
     },
   },

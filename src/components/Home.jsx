@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import IMG from "/assets/imghome.jpg";
 import Logo from "/assets/favicone.png";
 import THERAPIE from "/assets/psy.jpeg";
@@ -9,8 +11,20 @@ import DECO5 from "/assets/deco5.jpeg";
 import BUDDHA2 from "/assets/buddha2.jpeg";
 
 export default function Home() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % 7);
+    }, 3000); // Change slide every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const images = [THERAPIE, IMG1, BUDDHA2, DECO3, DECO5, DECO1, DECO2];
+
   return (
-    <div className="bg-stone-200 flex flex-col items-center ">
+    <div className="bg-stone-100 flex flex-col items-center ">
       <div className="flex justify-center">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-customColor"
@@ -24,18 +38,26 @@ export default function Home() {
         Psychopraticienne
       </h1>
       <div className="flex flex-col items-center">
-        <img src={IMG} alt="photo" className="h-60 w-64 rounded-2xl " />
-        <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
-          Je suis ravie de vous accueillir sur mon site. En tant que
-          psychopraticienne, je suis dévouée à accompagner mes clients dans leur
-          cheminement personnel vers le bien-être et l'équilibre mental. Mon
-          approche bienveillante et personnalisée vise à vous aider à surmonter
-          les défis émotionnels et psychologiques que vous pouvez rencontrer.
-        </p>
+        <div className="flex flex-col items-center lg:flex-row lg:mb-6">
+          <img
+            src={IMG}
+            alt="photo"
+            className="h-60 w-64 rounded-2xl lg:ml-[20%] lg:h-96 lg:w-96"
+          />
+          <p className="pl-6 pr-6 pt-2 pb-5 text-center 2xl:pr-44 2xl:pl-10 2xl:text-2xl 2xl:text-left xl:text-left xl:border-l-2 xl:border-t-stone-950 ">
+            Je suis ravie de vous accueillir sur mon site. En tant que
+            psychopraticienne, je suis dévouée à accompagner mes clients dans
+            leur cheminement personnel vers le bien-être et l'équilibre mental.
+            Mon approche bienveillante et personnalisée vise à vous aider à
+            surmonter les défis émotionnels et psychologiques que vous pouvez
+            rencontrer.
+          </p>
+        </div>
+
         <h2 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           Que pouvez-vous trouver sur mon site ?
         </h2>
-        <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
           Je suis ravie de vous accueillir sur mon site. En tant que
           psychopraticienne, je suis dévouée à accompagner mes clients dans leur
           cheminement personnel vers le bien-être et l'équilibre mental. Mon
@@ -45,7 +67,7 @@ export default function Home() {
         <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           De quelle façon un psychopraticien peut-il vous aider ?
         </h3>
-        <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
           Les psychopraticiens interviennent auprès des personnes qui ont des
           problèmes divers. Voici une liste des difficultés les plus courantes :
           problèmes conjugaux et familiaux, maladies ou blessures, la perte d’un
@@ -58,7 +80,7 @@ export default function Home() {
         <h4 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           Pourquoi devriez-vous consulter un psychopraticien ?
         </h4>
-        <p className="pl-6 pr-6 pt-2 pb-5 lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
           Lorsque vous rencontrez des problèmes au cours de votre vie,
           généralement vous les solutionnez par vous-même ou bien vous
           bénéficiez du soutien de votre famille/amis. Mais parfois, vous aurez
@@ -68,7 +90,7 @@ export default function Home() {
           appel à un psychopraticien agréé.
         </p>
       </div>
-      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box">
+      <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box ">
         <div className="carousel-item">
           <img src={THERAPIE} className="rounded-box" />
         </div>

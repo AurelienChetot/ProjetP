@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="bg-custom-bg bg-cover bg-center  border-b-2 border-b-stone-950">
+    <div className="bg-custom-bg bg-cover bg-center  border-b-2 border-b-stone-950 xl:h-96">
       <div className="flex flex-col items-center pt-10">
         <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
           Patricia <br />
@@ -28,25 +28,25 @@ export default function Header() {
           tabIndex={0}
           className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li className="text-indigo-800 text-xl text-center">
+          <li className="text-customColor font-bold text-xl text-center">
             <a>Accueil</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Qui suis-je</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Mes séances</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Thérapie</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Objectifs</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Tarifs</a>
           </li>
-          <li className="text-indigo-800 text-xl text-center pt-2">
+          <li className="text-customColor font-bold text-xl text-center pt-2">
             <a>Contact</a>
           </li>
         </ul>
