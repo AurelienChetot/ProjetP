@@ -28,26 +28,26 @@ export default function Header() {
           tabIndex={0}
           className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li className="text-indigo-800 text-xl">
+          <li className="text-indigo-800 text-xl text-center">
             <a>Accueil</a>
           </li>
-          <li className="text-indigo-800 text-xl">
+          <li className="text-indigo-800 text-xl text-center">
             <a>Qui suis-je</a>
           </li>
-          <li>
-            <a className="text-indigo-800 text-xl">Mes séances</a>
+          <li className="text-indigo-800 text-xl text-center">
+            <a>Mes séances</a>
           </li>
-          <li>
-            <a className="text-indigo-800 text-xl">Thérapie</a>
+          <li className="text-indigo-800 text-xl text-center">
+            <a>Thérapie</a>
           </li>
-          <li>
-            <a className="text-indigo-800 text-xl">Objectifs</a>
+          <li className="text-indigo-800 text-xl text-center">
+            <a>Objectifs</a>
           </li>
-          <li className="text-indigo-800 text-xl">
+          <li className="text-indigo-800 text-xl text-center">
             <a>Tarifs</a>
           </li>
-          <li>
-            <a className="text-indigo-800 text-xl">Contact</a>
+          <li className="text-indigo-800 text-xl text-center">
+            <a>Contact</a>
           </li>
         </ul>
       </div>

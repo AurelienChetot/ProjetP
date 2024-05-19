@@ -3,7 +3,7 @@ import Logo from "/assets/favicone.png";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-indigo-200 via-slate-50 to-indigo-200 ">
+    <div className="bg-gradient-to-r from-indigo-100 via-slate-50 to-indigo-100 ">
       <div className="flex justify-center">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-indigo-400"
