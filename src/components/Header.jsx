@@ -16,8 +16,8 @@ export default function Header() {
 
   return (
     <div className="bg-custom-bg bg-cover bg-center h-80  border-b-2 border-b-stone-950 lg:h-[750px]">
-      <div className="flex flex-col items-center pt-10">
-        <h1 className="font-royal bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
+      <div className="flex flex-col items-center pt-24">
+        <h1 className="font-royal bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-8xl ">
           Patricia <br />
           Deias
         </h1>
@@ -58,7 +58,7 @@ export default function Header() {
       <a id="openBtn" onClick={toggleMenu}>
         <span className="burger-icon">
           <img
-            className="w-16 absolute right-0 mt-32"
+            className="w-16 absolute right-0 mt-8"
             src={Menu}
             alt="menuSvg"
           />
