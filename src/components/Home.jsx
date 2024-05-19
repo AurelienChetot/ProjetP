@@ -62,7 +62,7 @@ export default function Home() {
           appel à un psychopraticien agréé.
         </p>
       </div>
-      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-sky-400 rounded-box">
+      <div className="carousel carousel-center max-w-md p-4 mb-6 ml-2 mr-2 space-x-4 bg-neutral-700 rounded-box">
         <div className="carousel-item">
           <img src={THERAPIE} className="rounded-box" />
         </div>
