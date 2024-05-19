@@ -1,15 +1,8 @@
-import Logo from "/assets/favicone.png";
-
 export default function Header() {
   return (
-    <div className=" bg-stone-300 flex border-b-2 border-b-stone-950 flex flex-col">
-      <div className="flex flex-col items-center ">
-        <img
-          className="h-30 w-32 mt-4 rounded-full shadow-xl"
-          src={Logo}
-          alt="Logo"
-        />
-        <h1 className="bg-gradient-to-r from-stone-900 via-zinc-500 to-stone-900 inline-block text-transparent bg-clip-text flex text-center text-4xl mb-2">
+    <div className="bg-custom-bg bg-cover bg-center  border-b-2 border-b-stone-950">
+      <div className="flex flex-col items-center pt-10">
+        <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 inline-block text-transparent bg-clip-text flex text-center text-4xl mb-2">
           Psychopraticienne <br /> Patricia <br />
           Deias
         </h1>
@@ -18,7 +11,7 @@ export default function Header() {
         <div tabIndex={0} role="button" className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10 text-yellow-800"
+            className="h-10 w-10 text-indigo-200"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -35,14 +28,26 @@ export default function Header() {
           tabIndex={0}
           className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li className="text-yellow-800">
-            <a>Homepage</a>
+          <li className="text-indigo-800 text-xl">
+            <a>Accueil</a>
           </li>
-          <li className="text-yellow-800">
-            <a>Portfolio</a>
+          <li className="text-indigo-800 text-xl">
+            <a>Qui suis-je</a>
           </li>
-          <li className="text-yellow-800">
-            <a>About</a>
+          <li>
+            <a className="text-indigo-800 text-xl">Mes séances</a>
+          </li>
+          <li>
+            <a className="text-indigo-800 text-xl">Thérapie</a>
+          </li>
+          <li>
+            <a className="text-indigo-800 text-xl">Objectifs</a>
+          </li>
+          <li className="text-indigo-800 text-xl">
+            <a>Tarifs</a>
+          </li>
+          <li>
+            <a className="text-indigo-800 text-xl">Contact</a>
           </li>
         </ul>
       </div>
