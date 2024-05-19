@@ -28,7 +28,7 @@ export default function Home() {
           <img
             src={IMG}
             alt="photo"
-            className="h-60 w-64 rounded-2xl lg:ml-[20%] lg:h-96 lg:w-96"
+            className="h-60 w-64 border-4 border-customColor rounded-2xl lg:ml-[20%] lg:h-96 lg:w-96"
           />
           <p className="pl-6 pr-6 pt-2 pb-5 text-center 2xl:pr-44 2xl:pl-10 2xl:text-2xl 2xl:text-left xl:text-left xl:border-l-2 xl:border-t-stone-950 ">
             Je suis ravie de vous accueillir sur mon site. En tant que
@@ -50,6 +50,29 @@ export default function Home() {
           approche bienveillante et personnalisée vise à vous aider à surmonter
           les défis émotionnels et psychologiques que vous pouvez rencontrer.
         </p>
+        <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box ">
+          <div className="carousel-item">
+            <img src={THERAPIE} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={IMG1} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={BUDDHA2} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={DECO3} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={DECO5} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={DECO1} className="rounded-box" />
+          </div>
+          <div className="carousel-item">
+            <img src={DECO2} className="rounded-box" />
+          </div>
+        </div>
         <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
           De quelle façon un psychopraticien peut-il vous aider ?
         </h3>
@@ -75,29 +98,6 @@ export default function Home() {
           pouvez compter et qui est objectif. Dans ce cas-là, vous pouvez faire
           appel à un psychopraticien agréé.
         </p>
-      </div>
-      <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box ">
-        <div className="carousel-item">
-          <img src={THERAPIE} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={IMG1} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={BUDDHA2} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={DECO3} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={DECO5} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={DECO1} className="rounded-box" />
-        </div>
-        <div className="carousel-item">
-          <img src={DECO2} className="rounded-box" />
-        </div>
       </div>
     </div>
   );

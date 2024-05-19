@@ -9,6 +9,9 @@
   position: fixed;
   top: 0;
   right: -49%;
+  background-image: url(../public/assets/butterfly.gif);
+  background-position: left center;
+  background-size: cover;
   padding-top: 10px;
   border-left: solid 2px black;
   transition: right 0.3s ease;
