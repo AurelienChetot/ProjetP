@@ -10,7 +10,7 @@ import BUDDHA2 from "/assets/buddha2.jpeg";
 
 export default function Home() {
   return (
-    <div className="bg-stone-100 flex flex-col items-center mt-16">
+    <div className="bg-stone-100 flex flex-col items-center pt-16">
       <div className="flex justify-center">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-customColor"
