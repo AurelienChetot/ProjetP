@@ -29,7 +29,7 @@
   text-decoration-color: #3a322c;
 }
 .sidenav a:hover {
-  color: black;
+  color: #746458;
 }
 .sidenav ul {
   display: flex;
@@ -54,7 +54,7 @@
   height: 40px;
   cursor: pointer;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .burger-icon {
     display: none;
   }
@@ -74,7 +74,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: 610px;
+    margin-top: 135px;
   }
 
   .sidenav a {
