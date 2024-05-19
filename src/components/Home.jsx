@@ -28,7 +28,7 @@ export default function Home() {
         <h2 className="pt-5 text-xl text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 ">
           Que pouvez-vous trouver sur mon site ?
         </h2>
-        <p className="pl-6 pr-6 pt-2 ">
+        <p className="pl-6 pr-6 pt-2 pb-5">
           Je suis ravie de vous accueillir sur mon site. En tant que
           psychopraticienne, je suis dévouée à accompagner mes clients dans leur
           cheminement personnel vers le bien-être et l'équilibre mental. Mon
