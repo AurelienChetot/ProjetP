@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-
 import IMG from "/assets/imghome.jpg";
 import Logo from "/assets/favicone.png";
 import THERAPIE from "/assets/psy.jpeg";
@@ -11,20 +9,8 @@ import DECO5 from "/assets/deco5.jpeg";
 import BUDDHA2 from "/assets/buddha2.jpeg";
 
 export default function Home() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % 7);
-    }, 3000); // Change slide every 3 seconds
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const images = [THERAPIE, IMG1, BUDDHA2, DECO3, DECO5, DECO1, DECO2];
-
   return (
-    <div className="bg-stone-100 flex flex-col items-center ">
+    <div className="bg-stone-100 flex flex-col items-center mt-16">
       <div className="flex justify-center">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-customColor"

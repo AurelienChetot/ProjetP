@@ -1,56 +1,69 @@
+import { useState } from "react";
+
+import Menu from "/assets/menu.svg";
+import CROSS from "/assets/cross.svg";
+import "../App.scss";
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
-    <div className="bg-custom-bg bg-cover bg-center  border-b-2 border-b-stone-950 xl:h-96">
+    <div className="bg-custom-bg bg-cover bg-center h-80  border-b-2 border-b-stone-950 lg:h-[750px]">
       <div className="flex flex-col items-center pt-10">
         <h1 className="bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-4xl mb-2">
           Patricia <br />
           Deias
         </h1>
       </div>
-      <div className="dropdown flex justify-end">
-        <div tabIndex={0} role="button" className="">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10 text-customColor"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h7"
-            />
-          </svg>
-        </div>
+      <div className={menuOpen ? "sidenav active" : "sidenav"}>
+        <p className="close" onClick={toggleMenu}>
+          <span className="cursor-menu-close">
+            <img className="w-20" src={CROSS} alt="cross" />
+          </span>
+        </p>
         <ul
           tabIndex={0}
-          className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          className=" dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
         >
           <li className="text-customColor font-bold text-xl text-center">
-            <a>Accueil</a>
+            <a onClick={closeMenu}>Accueil</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Qui suis-je</a>
+            <a onClick={closeMenu}>Qui suis-je</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Mes séances</a>
+            <a onClick={closeMenu}>Mes séances</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Thérapie</a>
+            <a onClick={closeMenu}>Thérapie</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Objectifs</a>
+            <a onClick={closeMenu}>Objectifs</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Tarifs</a>
+            <a onClick={closeMenu}>Tarifs</a>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a>Contact</a>
+            <a onClick={closeMenu}>Contact</a>
           </li>
         </ul>
       </div>
+      <a id="openBtn" onClick={toggleMenu}>
+        <span className="burger-icon">
+          <img
+            className="w-16 absolute right-0 mt-32"
+            src={Menu}
+            alt="menuSvg"
+          />
+        </span>
+      </a>
     </div>
   );
 }

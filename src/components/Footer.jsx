@@ -77,6 +77,7 @@ export default function Footer() {
             <a
               className="text-stone-950 underline"
               href="https://portfolio-aurelienchetot.netlify.app/"
+              target="_blank"
             >
               Aurélien
             </a>
