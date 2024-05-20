@@ -1,4 +1,4 @@
-import IMG from "/assets/imghome.jpg";
+import IMG from "/assets/imghome.gif";
 import Logo from "/assets/favicone.png";
 import THERAPIE from "/assets/psy.jpeg";
 import IMG1 from "/assets/img1.jpeg";
