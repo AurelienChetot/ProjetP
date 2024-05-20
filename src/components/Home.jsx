@@ -7,6 +7,7 @@ import DECO2 from "/assets/deco2.jpeg";
 import DECO3 from "/assets/deco3.jpeg";
 import DECO5 from "/assets/deco5.jpeg";
 import BUDDHA2 from "/assets/buddha2.jpeg";
+import PRESENTATION from "/assets/presentation.gif";
 
 export default function Home() {
   return (
@@ -98,6 +99,13 @@ export default function Home() {
           pouvez compter et qui est objectif. Dans ce cas-là, vous pouvez faire
           appel à un psychopraticien agréé.
         </p>
+        <div className="bg-customColor mb-16 ml-2 mr-2 rounded-2xl">
+          <img
+            className="pl-4 pr-4 pt-4 pb-4"
+            src={PRESENTATION}
+            alt="img perso"
+          />
+        </div>
       </div>
     </div>
   );
