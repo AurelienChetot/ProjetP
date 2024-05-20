@@ -6,6 +6,9 @@ import Home from "./pages/Home.jsx";
 import Perso from "./pages/Perso.jsx";
 import Seance from "./pages/Seance.jsx";
 import Therapie from "./pages/Therapie.jsx";
+import Objectifs from "./pages/Objectifs.jsx";
+import Tarifs from "./pages/Tarifs.jsx";
+import Contact from "./pages/Contact.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -27,6 +30,18 @@ const router = createBrowserRouter([
       {
         path: "/therapie",
         element: <Therapie />,
+      },
+      {
+        path: "/objectifs",
+        element: <Objectifs />,
+      },
+      {
+        path: "/tarifs",
+        element: <Tarifs />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

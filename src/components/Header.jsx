@@ -57,13 +57,19 @@ export default function Header() {
             </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Objectifs</a>
+            <Link to="/objectifs" onClick={closeMenu}>
+              Objectifs de la thérapie
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Tarifs</a>
+            <Link to="/tarifs" onClick={closeMenu}>
+              Tarifs
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Contact</a>
+            <Link to="/contact" onClick={closeMenu}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

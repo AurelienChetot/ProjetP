@@ -41,9 +41,9 @@ export default function Therapie() {
           que vous <span className="text-customColor">possédez</span>
           pour surmonter ces obstacles.
         </p>
-        <h2 className="text-center text-customColor underline pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
+        <h3 className="text-center text-customColor underline pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
           Faire le Premier Pas
-        </h2>
+        </h3>
         <p className=" pl-4 pr-4 pb-6 font-bold text-center">
           Si vous vous sentez <span className="text-customColor">prêt(e)</span>{" "}
           à commencer votre voyage vers le{" "}
