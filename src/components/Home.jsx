@@ -61,16 +61,16 @@ export default function Home() {
             <img src={BUDDHA2} className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img src={DECO3} className="rounded-box" />
+            <img src={DECO2} className="rounded-box" />
           </div>
           <div className="carousel-item">
             <img src={DECO5} className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img src={DECO1} className="rounded-box" />
+            <img src={DECO3} className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img src={DECO2} className="rounded-box" />
+            <img src={DECO1} className="rounded-box" />
           </div>
         </div>
         <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">

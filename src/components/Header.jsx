@@ -24,7 +24,7 @@ export default function Header() {
       </div>
       <div className={menuOpen ? "sidenav active" : "sidenav"}>
         <video autoPlay muted loop className="background-video">
-          <source src="../public/assets/butterfly.mp4" type="video/mp4" />
+          <source src="../assets/butterfly.mp4" type="video/mp4" />
         </video>
         <p className="close" onClick={toggleMenu}>
           <span className="cursor-menu-close">
