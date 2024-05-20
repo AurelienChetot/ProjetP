@@ -10,7 +10,7 @@ export default function Therapie() {
         <p className=" pl-4 pr-4 pt-4 font-bold text-center">
           Dans le cadre de mes services, je propose une variété de{" "}
           <span className="text-customColor">thérapies</span> et d'approches
-          pour vous aider à surmonter les défis de la vie et à retrouver un
+          pour vous aider à surmonter les défis de la vie et à retrouver un{" "}
           <span className="text-customColor">équilibre intérieur.</span> Chaque
           thérapie est conçue pour répondre à vos besoins uniques et vous
           accompagner dans votre parcours{" "}
@@ -38,8 +38,8 @@ export default function Therapie() {
             les défis que vous rencontrez
           </span>
           , les schémas de pensée qui vous limitent et les ressources internes
-          que vous <span className="text-customColor">possédez</span>
-          pour surmonter ces obstacles.
+          que vous <span className="text-customColor">possédez</span> pour
+          surmonter ces obstacles.
         </p>
         <h3 className="text-center text-customColor underline pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
           Faire le Premier Pas
