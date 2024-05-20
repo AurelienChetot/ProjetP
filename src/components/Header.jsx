@@ -15,14 +15,17 @@ export default function Header() {
   };
 
   return (
-    <div className="bg-custom-bg bg-cover bg-center h-80  border-b-2 border-b-stone-950 lg:h-[750px]">
+    <div className="bg-custom-bg bg-cover bg-center h-80 border-b-2 border-b-stone-950 lg:h-[750px]">
       <div className="flex flex-col items-center pt-24 lg:pt-32 md:pt-24">
-        <h1 className="font-royal bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-8xl  lg:text-[15rem]">
+        <h1 className="font-royal bg-gradient-to-r from-stone-900 via-stone-600 to-stone-900 text-transparent bg-clip-text flex text-center text-8xl lg:text-[15rem]">
           Patricia <br />
           Deias
         </h1>
       </div>
       <div className={menuOpen ? "sidenav active" : "sidenav"}>
+        <video autoPlay muted loop className="background-video">
+          <source src="../public/assets/butterfly.mp4" type="video/mp4" />
+        </video>
         <p className="close" onClick={toggleMenu}>
           <span className="cursor-menu-close">
             <img className="w-20" src={CROSS} alt="cross" />
@@ -30,7 +33,7 @@ export default function Header() {
         </p>
         <ul
           tabIndex={0}
-          className=" dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
+          className="dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
         >
           <li className="text-customColor font-bold text-xl text-center">
             <a onClick={closeMenu}>Accueil</a>

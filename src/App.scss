@@ -9,12 +9,19 @@
   position: fixed;
   top: 0;
   right: -49%;
-  background-image: url(../public/assets/butterfly.gif);
-  background-position: left center;
-  background-size: cover;
+  overflow: hidden;
   padding-top: 10px;
   border-left: solid 2px black;
   transition: right 0.3s ease;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .sidenav.active {
