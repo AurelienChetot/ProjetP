@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Menu from "/assets/menu.svg";
 import CROSS from "/assets/cross.svg";
@@ -36,13 +37,19 @@ export default function Header() {
           className="dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
         >
           <li className="text-customColor font-bold text-xl text-center">
-            <a onClick={closeMenu}>Accueil</a>
+            <Link to="/" onClick={closeMenu}>
+              Accueil
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Qui suis-je</a>
+            <Link to="/qui-suis-je" onClick={closeMenu}>
+              Qui suis-je
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Mes séances</a>
+            <Link to="/seance" onClick={closeMenu}>
+              Mes séances
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
             <a onClick={closeMenu}>Thérapie</a>
