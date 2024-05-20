@@ -58,7 +58,7 @@ export default function Perso() {
         </span>{" "}
         personnelles et professionnelles. Mon objectif est de vous aider à
         renforcer votre confiance en vous, à améliorer vos compétences en
-        communication et à atteindre vos objectifs personnels et professionnels
+        communication et à atteindre vos objectifs personnels et professionnels.
       </p>
       <p className="pl-4 pr-4 pt-2 pb-2 text-center">
         <span className="font-bold">3.</span>{" "}
@@ -105,7 +105,7 @@ export default function Perso() {
         •<span className="text-colorBrown"> Un engagement</span> à vous voir
         réussir et vous épanouir.
       </p>
-      <p className="pl-4 pr-4 pt-2 pb-2 font-bold text-center">
+      <p className="pl-4 pr-4 pt-2 pb-6 font-bold text-center">
         Je suis passionnée par l'idée d'aider les gens à réaliser leur plein
         potentiel et à vivre une vie plus satisfaisante et équilibrée. Mon
         parcours et ma formation me permettent d'offrir un accompagnement de

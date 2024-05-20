@@ -11,9 +11,9 @@ export default function Seance() {
   return (
     <div className="bg-stone-100 pt-16">
       <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-b-2 border-b-stone-950">
-        Les <span className="text-customColor">Séances</span>
+        <span className="text-customColor underline">Les Séances</span>
       </h1>
-      <p className=" pl-4 pr-4 pt-2 font-bold text-center">
+      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center">
         Lors de nos séances, vous serez accueilli(e) dans un espace{" "}
         <span className="text-colorBrown">chaleureux</span> et{" "}
         <span className="text-colorBrown">bienveillant</span> situé à l'adresse{" "}
@@ -47,6 +47,38 @@ export default function Seance() {
           <img src={BUDDHA4} className="rounded-box" />
         </div>
       </div>
+      <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
+        <span className="text-customColor underline">L'accueil</span>
+      </h1>
+      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center">
+        Dès que vous franchissez la porte,{" "}
+        <span className="text-customColor">vous serez enveloppé(e)</span> par
+        une atmosphère apaisante et accueillante. Mon cabinet a été
+        soigneusement conçu pour offrir{" "}
+        <span className="text-customColor">un refuge tranquille</span> loin du
+        stress quotidien. Vous trouverez des espaces confortables où nous
+        pourrons discuter en toute{" "}
+        <span className="text-customColor">confidentialité</span>
+        et des coins plus intimes pour les moments de réflexion et de détente.
+      </p>
+      <h2 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
+        <span className="text-customColor underline">L'Approche</span>
+      </h2>
+      <p className=" pl-4 pr-4 pt-2 pb-2 font-bold text-center">
+        Chaque séance est unique et adaptée à vos besoins spécifiques. Je crois
+        en une approche holistique qui prend en compte tous les aspects de votre
+        bien-être:
+      </p>
+      <p className=" text-lg text-colorBrown text-center">↬ Physique</p>
+      <p className=" text-lg text-colorBrown text-center">↬ Emotionnel</p>
+      <p className=" text-lg text-colorBrown text-center">↬ Mental</p>
+      <p className=" text-lg text-colorBrown text-center">↬ Spirituel</p>
+      <p className="text-center pl-4 pr-4 pt-2 pb-2">
+        {" "}
+        En travaillant ensemble, nous explorerons les défis que vous rencontrez
+        et développerons des stratégies pour surmonter les obstacles qui se
+        dressent sur votre chemin.
+      </p>
     </div>
   );
 }
