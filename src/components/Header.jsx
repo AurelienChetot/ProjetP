@@ -52,7 +52,9 @@ export default function Header() {
             </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
-            <a onClick={closeMenu}>Thérapie</a>
+            <Link to="/therapie" onClick={closeMenu}>
+              Thérapie
+            </Link>
           </li>
           <li className="text-customColor font-bold text-xl text-center pt-2">
             <a onClick={closeMenu}>Objectifs</a>

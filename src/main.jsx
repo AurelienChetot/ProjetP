@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import Perso from "./pages/Perso.jsx";
 import Seance from "./pages/Seance.jsx";
+import Therapie from "./pages/Therapie.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/seance",
         element: <Seance />,
+      },
+      {
+        path: "/therapie",
+        element: <Therapie />,
       },
     ],
   },

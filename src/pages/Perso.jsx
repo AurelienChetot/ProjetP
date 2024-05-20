@@ -5,10 +5,10 @@ import DIPLOME from "/assets/diplome2.jpeg";
 export default function Perso() {
   return (
     <div className="bg-stone-100 pt-16">
-      <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-b-2 border-b-stone-950">
-        Qui-<span className="text-customColor">Suis</span>-Je ?
+      <h1 className="text-center text-customColor underline pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-b-2 border-b-stone-950">
+        Qui-Suis-Je ?
       </h1>
-      <h2 className="text-center text-2xl font-bold pb-3 pt-3">
+      <h2 className="text-center text-colorBrown text-2xl font-bold pb-3 pt-3">
         Patricia Deias
       </h2>
       <p className=" pl-4 pr-4 text-xl font-bold text-center">
@@ -22,8 +22,8 @@ export default function Perso() {
         de vous accompagner sur la voie du développement personnel et
         professionnel, en vous offrant un soutien personnalisé et bienveillant.
       </p>
-      <h3 className=" pl-4 pr-4 pt-4 ml-4 mr-4 text-xl font-bold text-center  border-t-2 border-t-stone-950">
-        Mon <span className="text-customColor underline">Parcours</span>
+      <h3 className=" pl-4 pr-4 pt-4 ml-4 mr-4 text-xl text-customColor underline font-bold text-center  border-t-2 border-t-stone-950">
+        Mon Parcours
       </h3>
       <p className=" pl-4 pr-4 pt-2 pb-2 text-center">
         Anciennement spécialisée dans l'insertion professionnelle, j'ai acquis
@@ -35,8 +35,8 @@ export default function Perso() {
       <div className="bg-customColor mb-6 ml-2 mr-2 rounded-2xl">
         <img className="pl-4 pr-4 pt-4 pb-4" src={DIPLOME} alt="img perso" />
       </div>
-      <h3 className=" pl-4 pr-4 pt-4 ml-4 mr-4 text-xl font-bold text-center  border-t-2 border-t-stone-950">
-        Ma <span className="text-customColor underline">Mission</span>
+      <h3 className=" pl-4 pr-4 pt-4 ml-4 mr-4 text-xl text-customColor underline font-bold text-center  border-t-2 border-t-stone-950">
+        Ma Mission
       </h3>
       <p className=" pl-4 pr-4 pt-2 font-bold text-center">
         Aujourd'hui, en tant qu'accompagnatrice en développement personnel et
