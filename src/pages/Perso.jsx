@@ -36,7 +36,7 @@ export default function Perso() {
         <img className="pl-4 pr-4 pt-4 pb-4" src={DIPLOME} alt="img perso" />
       </div>
       <h3 className=" pl-4 pr-4 pt-4 ml-4 mr-4 text-xl text-customColor underline font-bold text-center  border-t-2 border-t-stone-950">
-        Ma Mission
+        MaMission
       </h3>
       <p className=" pl-4 pr-4 pt-2 font-bold text-center">
         Aujourd'hui, en tant qu'accompagnatrice en développement personnel et
