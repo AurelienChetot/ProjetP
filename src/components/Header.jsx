@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import Menu from "/assets/menu.svg";
 import CROSS from "/assets/cross.svg";
+import MUSIC from "/soundtrack/music.mp3";
 import "../App.scss";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const audioRef = useRef(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -22,6 +24,16 @@ export default function Header() {
           Patricia <br />
           Deias
         </h1>
+      </div>
+      <div className="flex justify-center">
+        <audio
+          className="w-64 pb-6"
+          ref={audioRef}
+          src={MUSIC}
+          controls
+          autoPlay
+          loop
+        ></audio>
       </div>
       <div className={menuOpen ? "sidenav active" : "sidenav"}>
         <video autoPlay muted loop className="background-video">
