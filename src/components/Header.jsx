@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Menu from "/assets/menu.svg";
@@ -9,6 +9,22 @@ import "../App.scss";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const audioRef = useRef(null);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+
+    const handleInteraction = () => {
+      audio.play().catch((error) => {
+        console.log("Autoplay was prevented:", error);
+      });
+    };
+
+    document.addEventListener("click", handleInteraction, { once: true });
+
+    return () => {
+      document.removeEventListener("click", handleInteraction);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -31,7 +47,6 @@ export default function Header() {
           ref={audioRef}
           src={MUSIC}
           controls
-          autoPlay
           loop
         ></audio>
       </div>
