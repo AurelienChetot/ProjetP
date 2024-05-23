@@ -102,11 +102,7 @@ export default function Header() {
       </div>
       <a id="openBtn" onClick={toggleMenu}>
         <span className="burger-icon">
-          <img
-            className="w-16 absolute right-0 mt-8"
-            src={Menu}
-            alt="menuSvg"
-          />
+          <img className="w-16 absolute right-0" src={Menu} alt="menuSvg" />
         </span>
       </a>
     </div>
