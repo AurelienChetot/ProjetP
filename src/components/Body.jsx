@@ -12,7 +12,7 @@ import PRESENTATION from "/assets/presentation.gif";
 export default function Home() {
   return (
     <div className="bg-stone-100 flex flex-col items-center pt-16">
-      <div className="flex justify-center">
+      <div className="flex justify-center lg:pt-16">
         <img
           className="h-32 w-32 mt-4 rounded-[50%] border-2 border-customColor"
           src={Logo}
@@ -25,13 +25,13 @@ export default function Home() {
         Psychopraticienne
       </h1>
       <div className="flex flex-col items-center">
-        <div className="flex flex-col items-center lg:flex-row lg:mb-6">
+        <div className="flex flex-col items-center lg:flex-row lg:mb-6 lg:mt-16">
           <img
             src={IMG}
             alt="photo"
-            className="h-60 w-64 border-4 border-customColor rounded-2xl lg:ml-[20%] lg:h-96 lg:w-96"
+            className="h-60 w-64 border-4 border-customColor rounded-2xl lg:ml-[25%] lg:h-96 lg:w-96"
           />
-          <p className="pl-6 pr-6 pt-2 pb-5 text-center 2xl:pr-44 2xl:pl-10 2xl:text-2xl 2xl:text-left xl:text-left xl:border-l-2 xl:border-t-stone-950 ">
+          <p className="pl-6 pr-6 pt-2 pb-5 text-center lg:mr-[20%] 2xl:pl-10 2xl:text-left xl:text-left">
             Je suis ravie de vous accueillir sur mon site. En tant que
             psychopraticienne, je suis dévouée à accompagner mes clients dans
             leur cheminement personnel vers le bien-être et l'équilibre mental.
@@ -41,17 +41,17 @@ export default function Home() {
           </p>
         </div>
 
-        <h2 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
+        <h2 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6 lg:mt-16 lg:mb-4 lg:pt-16">
           Que pouvez-vous trouver sur mon site ?
         </h2>
-        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-[30%] lg:pl-[30%] lg:pb-16">
           Je suis ravie de vous accueillir sur mon site. En tant que
           psychopraticienne, je suis dévouée à accompagner mes clients dans leur
           cheminement personnel vers le bien-être et l'équilibre mental. Mon
           approche bienveillante et personnalisée vise à vous aider à surmonter
           les défis émotionnels et psychologiques que vous pouvez rencontrer.
         </p>
-        <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box ">
+        <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box lg:mr-48 lg:ml-48">
           <div className="carousel-item">
             <img src={THERAPIE} className="rounded-box" />
           </div>
@@ -74,10 +74,10 @@ export default function Home() {
             <img src={DECO1} className="rounded-box" />
           </div>
         </div>
-        <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
+        <h3 className="pt-5 text-2xl text-customColor  text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6 lg:mt-16 lg:mb-4 lg:pt-16">
           De quelle façon un psychopraticien peut-il vous aider ?
         </h3>
-        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-[30%] lg:pl-[30%]">
           Les psychopraticiens interviennent auprès des personnes qui ont des
           problèmes divers. Voici une liste des difficultés les plus courantes :
           problèmes conjugaux et familiaux, maladies ou blessures, la perte d’un
@@ -87,10 +87,10 @@ export default function Home() {
           sexuels, difficultés au travail, les problèmes d’éducation des enfants
           et les soins aux personnes âgées.
         </p>
-        <h4 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6">
+        <h4 className="pt-5 text-2xl text-customColor text-center pl-1 pr-1 font-bold border-t-2 border-t-stone-950 w-4/5 lg:w-2/6 lg:mt-16  lg:mb-4 lg:pt-16">
           Pourquoi devriez-vous consulter un psychopraticien ?
         </h4>
-        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-80 lg:pl-80">
+        <p className="pl-6 pr-6 pt-2 pb-5 text-center  lg:pr-[30%] lg:pl-[30%] lg:pb-16">
           Lorsque vous rencontrez des problèmes au cours de votre vie,
           généralement vous les solutionnez par vous-même ou bien vous
           bénéficiez du soutien de votre famille/amis. Mais parfois, vous aurez
@@ -99,9 +99,9 @@ export default function Home() {
           pouvez compter et qui est objectif. Dans ce cas-là, vous pouvez faire
           appel à un psychopraticien agréé.
         </p>
-        <div className="bg-customColor mb-16 ml-2 mr-2 rounded-2xl">
+        <div className="flex justify-center bg-customColor mb-16 ml-2 mr-2 rounded-2xl lg:w-3/6">
           <img
-            className="pl-4 pr-4 pt-4 pb-4"
+            className="pl-4 pr-4 pt-4 pb-4 lg:w-3/4 lg:pl-0 lg:pr-0"
             src={PRESENTATION}
             alt="img perso"
           />

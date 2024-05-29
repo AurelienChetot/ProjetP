@@ -10,10 +10,12 @@ import DECO4 from "/assets/deco4.jpeg";
 export default function Seance() {
   return (
     <div className="bg-stone-100 pt-16">
-      <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-b-2 border-b-stone-950">
-        <span className="text-customColor underline">Les Séances</span>
-      </h1>
-      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center">
+      <div className="lg:flex lg:flex-col lg:items-center">
+        <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-b-2 border-b-stone-950 lg:w-2/6 lg:pb-16 lg:pt-16">
+          <span className="text-customColor underline">Les Séances</span>
+        </h1>
+      </div>
+      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center lg:pt-16 lg:pr-[30%] lg:pl-[30%] lg:pb-16">
         Lors de nos séances, vous serez accueilli(e) dans un espace{" "}
         <span className="text-colorBrown">chaleureux</span> et{" "}
         <span className="text-colorBrown">bienveillant</span> situé à l'adresse{" "}
@@ -24,7 +26,7 @@ export default function Seance() {
         sentir à l'aise pour explorer vos émotions, vos pensées et vos
         expériences de vie.
       </p>
-      <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box ">
+      <div className="carousel carousel-center max-w-full p-4 mb-6 ml-2 mr-2 space-x-4 bg-customColor rounded-box lg:mr-80 lg:ml-80 lg:mb-16">
         <div className="carousel-item">
           <img src={ROOM3} className="rounded-box" />
         </div>
@@ -47,10 +49,12 @@ export default function Seance() {
           <img src={BUDDHA4} className="rounded-box" />
         </div>
       </div>
-      <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
-        <span className="text-customColor underline">L'accueil</span>
-      </h1>
-      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center">
+      <div className="lg:flex lg:flex-col lg:items-center">
+        <h1 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950 lg:w-2/6 lg:pt-16">
+          <span className="text-customColor underline">L'accueil</span>
+        </h1>
+      </div>
+      <p className=" pl-4 pr-4 pt-2 pb-6 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-16">
         Dès que vous franchissez la porte,{" "}
         <span className="text-customColor">vous serez enveloppé(e)</span> par
         une atmosphère apaisante et accueillante. Mon cabinet a été
@@ -61,10 +65,12 @@ export default function Seance() {
         <span className="text-customColor">confidentialité</span>
         et des coins plus intimes pour les moments de réflexion et de détente.
       </p>
-      <h2 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950">
-        <span className="text-customColor underline">L'Approche</span>
-      </h2>
-      <p className=" pl-4 pr-4 pt-2 pb-2 font-bold text-center">
+      <div className="lg:flex lg:flex-col lg:items-center">
+        <h2 className="text-center pt-5 pb-4 ml-4 mr-4 text-2xl font-bold pl-1 pr-1 border-t-2 border-t-stone-950 lg:w-2/6 lg:pt-16">
+          <span className="text-customColor underline">L'Approche</span>
+        </h2>
+      </div>
+      <p className=" pl-4 pr-4 pt-2 pb-2 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-8">
         Chaque séance est unique et adaptée à vos besoins spécifiques. Je crois
         en une approche holistique qui prend en compte tous les aspects de votre
         bien-être:
@@ -73,7 +79,7 @@ export default function Seance() {
       <p className=" text-lg text-colorBrown text-center">↬ Emotionnel</p>
       <p className=" text-lg text-colorBrown text-center">↬ Mental</p>
       <p className=" text-lg text-colorBrown text-center">↬ Spirituel</p>
-      <p className="text-center pl-4 pr-4 pt-2 pb-2">
+      <p className="text-center pl-4 pr-4 pt-2 pb-2 lg:pr-[30%] lg:pl-[30%] lg:pb-16 lg:pt-6">
         {" "}
         En travaillant ensemble, nous explorerons les défis que vous rencontrez
         et développerons des stratégies pour surmonter les obstacles qui se
