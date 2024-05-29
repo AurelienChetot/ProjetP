@@ -9,7 +9,7 @@ export default function Therapie() {
             La Thérapie
           </h1>
         </div>
-        <p className=" pl-4 pr-4 pt-4 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-6">
+        <p className=" pl-4 pr-4 pt-4 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-6 lg:pt-16">
           Dans le cadre de mes services, je propose une variété de{" "}
           <span className="text-customColor">thérapies</span> et d'approches
           pour vous aider à surmonter les défis de la vie et à retrouver un{" "}
