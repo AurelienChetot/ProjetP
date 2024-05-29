@@ -70,7 +70,7 @@ export default function Seance() {
           <span className="text-customColor underline">L'Approche</span>
         </h2>
       </div>
-      <p className=" pl-4 pr-4 pt-2 pb-2 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-8">
+      <p className=" pl-4 pr-4 pt-2 pb-2 font-bold text-center lg:pr-[30%] lg:pl-[30%] lg:pb-6">
         Chaque séance est unique et adaptée à vos besoins spécifiques. Je crois
         en une approche holistique qui prend en compte tous les aspects de votre
         bien-être:
