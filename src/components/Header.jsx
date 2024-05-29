@@ -43,7 +43,7 @@ export default function Header() {
       </div>
       <div className="flex justify-center">
         <audio
-          className="w-64 pb-6"
+          className="w-64 pb-6 lg:mt-24"
           ref={audioRef}
           src={MUSIC}
           controls
