@@ -13,6 +13,7 @@
   <img width="300" style="border-radius: 20px;"  src="./public/assets/buddha4.jpeg" alt="Image d'en-tête">
     <img width="300" style="border-radius: 20px;"  src="./public/assets/room3.jpeg" alt="Image d'en-tête">
       <img width="300" style="border-radius: 20px;"  src="./public/assets/room5.jpeg" alt="Image d'en-tête">
+      <img width="300" style="border-radius: 20px;"  src="./public/assets/room2.jpeg" alt="Image d'en-tête">
 
 ### Page du site :
 
