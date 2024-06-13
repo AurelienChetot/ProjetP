@@ -3,18 +3,6 @@
 <p align="center">
   <img width="700" style="border-radius: 50px;"  src="./public/assets/lotus.gif" alt="Image d'en-tête">
 </p>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-v.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/team3/team3#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/team3/team3/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/Sachdarras AurelienChetot Moonlow31 FabienLqr/Star-Wild" />
-  </a>
-</p>
 
 > Au cours de ma formation, j'ai entrepris un projet particulier qui consistait à créer un site web de présentation pour un client spécialisé dans l'accompagnement personnel et professionnel. Pour ce projet, j'ai utilisé React et Tailwind, technologies modernes qui permettent de réaliser des interfaces dynamiques et esthétiques.
 
