@@ -64,6 +64,14 @@
   height: 40px;
   cursor: pointer;
 }
+
+.popup-link {
+  color: #746458;
+  &:hover {
+    color: #ceb4a0;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .burger-icon {
     display: none;
